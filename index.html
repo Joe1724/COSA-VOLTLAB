@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>COSA</title>
+</head>
+<body class="bg-[#181A1B] w-full h-full overflow-hidden">
+
+    <div class="flex justify-center mt-2">
+        <canvas></canvas>
+    </div>
+
+    <div class="flex justify-center mt-4">
+        <button id="timeChange" onclick="changeTime()" class="absolute -mt-16 -ml-96 border border-gray-500 rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-500 hover:text-black focus:outline-none">
+            Change
+        </button>
+    </div>
+    
+    <div class="flex justify-center mt-5">
+        <p id="gameOverText" class="select-none text-white opacity-0 font-bold text-lg">Game Over</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
